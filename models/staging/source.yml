@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+    - name: raw 
+      database: sf_dbt_db
+      schema: sf_dbt_sch
+      tables: 
+        - name: sf_dbt_raw_tb
